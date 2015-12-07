@@ -1,0 +1,94 @@
+<html>
+	<head>		
+	</head>
+		<title>Consulta de Aluno</title>
+
+		<style type="text/css">
+			body{margin:0; padding:0; background:url("img/bg.jpg") no-repeat; background-size:cover;}
+
+			#header {
+			/*background-color:#146DFF;*/
+			color:white;
+			text-align:center;
+			padding:5px;
+			}
+		</style>
+	
+
+<body>
+
+    <link rel="stylesheet" type="text/css" href="css/estiloConsulta.css">
+    <form name="cad_user" method="post" action="AlunoServlet.java">
+    <div id="header" align="center"> 
+      <img src="img\logo_fnr.png">
+    </div>
+
+    <div align="center">
+        <h1>Consulta de Aluno</h1>
+      </div>
+    
+    
+      <a href="http://localhost:8080/cjweb1/cadastroAluno.html"><img id="addbig" src="img\addbig.png"></a>
+     <br></br>
+    
+   <div id="pesq">
+
+       <center>
+          <label>
+     
+           Pesquisar: 
+
+          </label>
+          <input id="pesquisar" type="text" name="pesquisar"  action="" placeholder="Digite o nome do aluno"></input>
+          <img id="pesquisarimg" src="img\pesquisar.png"></img>
+     
+        
+        </center>
+          
+         <br/><br/>
+        
+   </div>
+    
+  <div>
+  
+  
+  <table action="usucontroller.do" method="atualizar" border="2" width="100%">    
+    <tr>
+      <td>ID</td>
+      <td>Usuário</td>
+      <td width="70%">Nome</td>
+      <td>Matricula</td>
+      <td>Status</td>
+      <td>Alterar</td>
+      <td>Excluir</td>
+    </tr>
+
+    <tr>
+      <td>1</td>
+      <td>Marry</td>
+      <td>Joanna Maressith Kuestains Batista da Silva</td>
+      <td>201310094</td>
+      <td>Ativo</td>
+      <td> <a href="cadastroAluno.html"><img src="img/alterar.png"></td>
+      <td><img src="img/excluir.png"></td>
+     
+    </tr>
+
+    </div>
+
+  </table>
+	</body>
+	
+		<!-- Começo do rodapé --> 
+   <br/><br/>
+ <br/><br/>
+ <br/><br/>
+ <br/><br/>
+ <div id="rodape" class="rodape">
+		<p>  <center>&copy Equipe de Autores:<br/>
+    Allan Carlos<br/>
+    Danilo Correia<br/>
+    Elízio Neto<br/>
+    Joanna Maressith<br/>2015 - Faculdade Nova Roma - Todos os Direitos Reservados </center>.</p></div><!-- Fim do Rodapé --> 
+
+</html>
